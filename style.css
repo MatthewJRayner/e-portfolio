@@ -12,10 +12,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #f5f5f5;
-}
-
 li {
     list-style-type: none;
 }
@@ -153,8 +149,7 @@ section {
 }
 
 .dark-theme section,
-.dark-theme .link__hover-effect--black:after,
-.dark-theme body {
+.dark-theme .link__hover-effect--black:after {
     background-color: #242424;
 }
 
@@ -1265,7 +1260,7 @@ header .section__desc {
 
 @media (max-height: 800px) {
     #languages {
-        margin-top: 225px;
+        padding-top: 225px;
     }
 }
 
